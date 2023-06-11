@@ -8,6 +8,11 @@
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
         <RichTextBox x:Name="rtbLogWindow" Background="Black" IsReadOnly="True" AcceptsTab="False" AcceptsReturn="False" BorderBrush="Black" BorderThickness="2" VerticalScrollBarVisibility="Auto">
+            <RichTextBox.ContextMenu>
+                <ContextMenu>
+                    <MenuItem x:Name="miSaveLogToFile" Header = "Save Log to File" Click="miSaveLogToFile_Click"/>
+                </ContextMenu>
+            </RichTextBox.ContextMenu>
         </RichTextBox> 
     </Grid>
 </UserControl>
