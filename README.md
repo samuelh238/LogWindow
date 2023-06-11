@@ -1,0 +1,2 @@
+# LogWindow
+Visual WPF Logger
